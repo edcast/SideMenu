@@ -128,10 +128,10 @@ internal extension SideMenuManager {
     }
 
     private class func setMenu(fromMenu: Menu?, toMenu: Menu?) -> Menu? {
-        if fromMenu?.isHidden == false {
-            Print.warning(.menuInUse, arguments: PresentDirection.left.name, required: true)
-            return fromMenu
-        }
+//        if fromMenu?.isHidden == false {
+//            Print.warning(.menuInUse, arguments: PresentDirection.left.name, required: true)
+//            return fromMenu
+//        }
         return toMenu
     }
 }
